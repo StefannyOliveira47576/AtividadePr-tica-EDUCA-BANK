@@ -149,3 +149,83 @@
     width: 15vw;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.534);
 }
+
+#container button:hover{
+    border-color: #f1d29b ;
+    background-color: rgb(255, 208, 0);
+    color: white;
+    transition: 0.8s;
+}
+
+ #linha{
+    width: 70%;
+    margin: 45px auto;
+ }
+
+ #container img{
+    width: 45rem;
+    margin-left: 50px;
+ }
+
+ #container-amazon{
+    background: linear-gradient(180deg, rgba(221,204,157,1) 36%, rgba(255,196,0,1) 70%), url(Imagens/img.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 12rem;
+ }
+
+ #container-amazon img{
+    width: 15rem;
+    height: auto; 
+    margin-top: 5rem;
+}
+
+#container-amazon h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+#container-amazon p{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-weight: 800;
+}
+
+#roda-pe{
+    background-color: rgba(0, 0, 0, 0.938);
+    padding: 15vh;
+    text-align: center;
+}
+
+#roda-pe img{
+    width: 16rem;
+    height: 10rem;
+    margin-top: -5rem;
+    margin-bottom: 20px;
+    text-align: center;
+ }
+
+ #roda-pe div{
+    color: rgba(255, 255, 255, 0.562);
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    font-size: 15px;
+ }
+
+ #roda-pe div a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.562);
+ }
+
+ #roda-pe a:hover{
+    color: #fca61d;
+    transition: 0.5s;
+ }

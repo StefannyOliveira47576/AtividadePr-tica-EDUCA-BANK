@@ -177,7 +177,7 @@
 
  #container img{
     width: 45rem;
-    margin-left: 50px;
+    margin-left: 7em;
  }
 
 
@@ -252,3 +252,64 @@
     color: #fca61d;
     transition: 0.5s;
  }
+
+@media screen and (max-width : 1920px ) {
+    
+}
+
+@media screen and (max-width: 1366px) {
+    
+}
+
+
+@media screen and (max-width: 991px) {
+
+    #sessao a button{
+        width: 14rem;
+        padding: 0.9rem;
+    }
+
+    #sessao p{
+        font-size: 1.5rem;
+
+    }
+
+    #app button a{
+        width: 17rem;
+        padding: 0.9rem;
+    }
+
+    #app{
+        padding: 30vh;
+        width: auto;
+    }
+
+    #app div p{
+        padding: 1vw;
+        font-size: 1.8rem;
+    }
+
+    #app div img{
+     width: 20rem;
+     margin-left: 1vw;
+    }
+
+    #container{
+        padding: 35vh;
+    }
+
+    #container button{
+        width: 14rem;
+        padding: 0.9rem
+    }
+
+
+}
+
+@media screen and (max-width : 767px ) {
+    
+}
+
+@media screen and (max-width : 480px ) {
+    
+}

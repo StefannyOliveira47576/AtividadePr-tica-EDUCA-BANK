@@ -219,8 +219,6 @@
 
 
 
-
-
 #roda-pe{
     background-color: rgba(0, 0, 0, 0.938);  /* Mudar cor de fundo*/
     padding: 10vh;  /*Um espaçamento entre o conteúdo e a margem*/
@@ -302,7 +300,14 @@
         width: 14rem;
         padding: 0.9rem
     }
-    
+
+    #container img{
+        width: 390px;
+        height: 390px;
+        margin-left: 50px;
+        margin-top: -50px;
+    }
+
 }
 
 @media screen and (max-width : 767px ) {

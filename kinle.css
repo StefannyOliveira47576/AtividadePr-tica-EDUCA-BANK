@@ -176,8 +176,8 @@
  }
 
  #container img{
-    width: 45rem;
-    margin-left: 7em;
+    width: 40rem;
+    margin-left: 9em;
  }
 
 
@@ -302,8 +302,7 @@
         width: 14rem;
         padding: 0.9rem
     }
-
-
+    
 }
 
 @media screen and (max-width : 767px ) {
